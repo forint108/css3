@@ -1,0 +1,7 @@
+/*scale图片缩放*/
+ .img_scale{transition:0.5s;-webkit-transition:0.5s;-ms-transition:0.5s;}
+ .img_scale:hover{transform:scale(1.15);-webkit-transform:scale(1.15);-ms-transform:scale(1.15);}
+
+/*translate卡片上移加阴影*/
+.card_translate{transition:0.5s;-webkit-transition:0.5s;-ms-transition:0.5s;}
+.card_translate:hover{transform:translate(0,-8px);-webkit-transform:translate(0,-8px);-ms-transform:translate(0,-8px);box-shadow:0 12px 24px rgba(129,134,143,0.2);}
